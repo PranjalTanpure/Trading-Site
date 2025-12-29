@@ -36,3 +36,31 @@
   color: #444;
   margin-top: 0px;
 }
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .sec1 {
+    font-size: 16px;
+    padding: 15px 20px;
+    text-align: center;
+  }
+
+  .sec2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .img-card img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .position {
+    font-size: 16px;
+  }
+}

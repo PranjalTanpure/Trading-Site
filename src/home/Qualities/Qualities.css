@@ -6,3 +6,18 @@
   padding: 3rem;
   
 }
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+  .qualities {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .qualities {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

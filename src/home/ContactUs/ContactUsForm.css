@@ -1,17 +1,16 @@
-/* Main layout container */
+/* ================= MAIN LAYOUT ================= */
 .layout-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 40px;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   box-sizing: border-box;
   gap: 5%;
-  
 }
 
-/* Left Section */
+/* ================= LEFT SECTION ================= */
 .left-section {
   width: 55%;
   font-size: 18px;
@@ -19,7 +18,7 @@
   text-align: left;
 }
 
-/* Right Form Section */
+/* ================= RIGHT SECTION ================= */
 .right-section {
   width: 35%;
   display: flex;
@@ -27,23 +26,23 @@
   color: black;
 }
 
-/* Form Styling */
+/* ================= FORM ================= */
 .form-box {
   width: 80%;
   max-width: 350px;
   background: #fefae0;
   padding: 40px 60px 40px 30px;
   border-radius: 12px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
-  margin-top: 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .form-box label {
   font-size: 18px;
   display: block;
   text-align: left;
-  margin: 25px 0px 0px 0px;
+  margin-top: 25px;
 }
+
 .form-box h2 {
   font-weight: bold;
   max-width: 80%;
@@ -52,7 +51,6 @@
 .form-box input {
   width: 100%;
   padding: 10px;
-  margin-top: 0px;
   border: 1px solid lightslategray;
   border-radius: 8px;
   font-size: 15px;
@@ -63,7 +61,7 @@
   border-color: #BC6C25;
 }
 
-/* Submit Button */
+/* ================= BUTTON ================= */
 .form-box button {
   width: 100%;
   margin-top: 30px;
@@ -80,16 +78,15 @@
   background: #DDA15E;
 }
 
-/* Wrapper link */
+/* ================= CONTACT INFO ================= */
 .contact-info a {
   display: flex;
   align-items: center;
   gap: 10px;
-  text-decoration: none;        /* no underline */
+  text-decoration: none;
   color: #fefae0;
   font-weight: bold;
 }
-
 
 .contact-info i {
   color: #fefae0;
@@ -99,33 +96,48 @@
   transition: all 0.3s ease;
 }
 
-
 .contact-info a:hover i {
   background: #BC6C25;
   border-color: #BC6C25;
   color: white;
 }
 
-
 .contact-info a:hover {
   text-decoration: none;
 }
 
-
-/* MOBILE RESPONSIVE */
+/* ================= MOBILE VIEW ================= */
 @media (max-width: 768px) {
   .layout-container {
     flex-direction: column;
+    padding: 20px;
     gap: 30px;
+    min-height: auto;
   }
 
-  .left-section,
+  .left-section {
+    width: 100%;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+
   .right-section {
     width: 100%;
+    justify-content: center;
   }
 
-  .right-section {
+  .form-box {
+    width: 100%;
+    max-width: 100%;
+    padding: 25px;
+  }
+
+  .form-box label {
+    font-size: 16px;
+  }
+
+  .contact-info a {
     justify-content: center;
   }
 }
-

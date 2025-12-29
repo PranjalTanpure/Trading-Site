@@ -22,3 +22,17 @@
   margin-bottom: 10px;
 }
 
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+
+  .qualityCard {
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .qualityCard h2 {
+    font-size: 18px;
+  }
+}

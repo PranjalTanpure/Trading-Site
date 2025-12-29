@@ -112,3 +112,49 @@
 .learn-more-button:hover {
   background-color: #DDA15E;
 }
+
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+
+  .serviceSwiperWrapper {
+    padding: 0 15px; /* reduce side padding */
+  }
+
+  .serviceSwiper {
+    padding: 20px 0;
+  }
+
+  .serviceSwiper .swiper-slide {
+    width: 260px;
+  }
+
+  .card {
+    width: 260px;
+    height: auto;
+    padding: 20px;
+  }
+
+  .swiper-slide-active .card {
+    transform: scale(1.03); /* reduce zoom */
+  }
+
+  .card-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .card-content p {
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 24px;
+    height: 24px;
+  }
+
+  .learn-more-button {
+    font-size: 0.9rem;
+    padding: 7px 10px;
+  }
+}
