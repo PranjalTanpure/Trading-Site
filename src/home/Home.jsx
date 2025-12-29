@@ -44,7 +44,7 @@ export default function Home() {
       <section id="services">
       <div className="hero-description2">  
         <div className="upper-svg" style={{backgroundColor: "#283618", marginTop: "50px"}}>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f9f9" fill-opacity="1" d="M0,160L40,154.7C80,149,160,139,240,128C320,117,400,107,480,122.7C560,139,640,181,720,181.3C800,181,880,139,960,144C1040,149,1120,203,1200,213.3C1280,224,1360,192,1400,176L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f9f9f9" fillOpacity="1" d="M0,160L40,154.7C80,149,160,139,240,128C320,117,400,107,480,122.7C560,139,640,181,720,181.3C800,181,880,139,960,144C1040,149,1120,203,1200,213.3C1280,224,1360,192,1400,176L1440,160L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
         </div>
         <div className="join-us-section">
         <h4 style={{textAlign:"center" , color: "#FEFAE0",display:"block",justifyContent:"center",alignItems: "center", fontSize: "3rem", margin:0, boxSizing:"border-box",backgroundColor: "#283618"}}>
@@ -54,7 +54,7 @@ export default function Home() {
         <ServiceSwiper/>
         </div>
         <div className="lower-svg">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#283618" fill-opacity="1" d="M0,96L80,133.3C160,171,320,245,480,240C640,235,800,149,960,117.3C1120,85,1280,107,1360,117.3L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#283618" fillOpacity="1" d="M0,96L80,133.3C160,171,320,245,480,240C640,235,800,149,960,117.3C1120,85,1280,107,1360,117.3L1440,128L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
         </div>
       </div>
       </section>
