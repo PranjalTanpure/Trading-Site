@@ -1,0 +1,39 @@
+.desc-card {
+  position: relative;
+  width: 100%;            /* make it take full width of its parent card */
+  height: 200px;          /* you can increase to 250px or more */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;            /* match parent width */
+  height: 100%;           /* fill parent height */
+  object-fit: cover;      /* ensure it fills box nicely */
+  transition: transform 0.5s ease;
+}
+
+.desc-card:hover .card-img {
+  transform: scale(1.1);
+  
+}
+
+.desc-text {
+  position: absolute;
+  bottom: 0;
+  background: #FEFAE0;
+  color: #000000;            /* change to white for better contrast */
+  width: 100%;
+  height: 100%;
+  
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  display: flex;     
+  justify-content: center;   /* horizontal */
+  align-items: center; 
+  font-size: 18px;
+}
+
+.desc-card:hover .desc-text {
+  opacity: 0.8;
+}

@@ -1,0 +1,46 @@
+.home-page {
+  background-color: #f9f9f9;
+
+}
+.hero-section {
+  color:black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 150px;
+}
+
+.hero-content{
+    font-size: 38px;
+    max-width: 50%;
+    
+}
+.hero-content p {
+  font-size: 18px;
+  margin: 20px 0 40px 0;
+}
+button {
+  background-color: #BC6C25;
+  color: white;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #DDA15E;
+}
+.hero-image img {
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateX(90px);
+}
+.join-us-section {
+  
+  position: relative;
+  overflow: hidden;
+  background-color: #283618;
+  
+}

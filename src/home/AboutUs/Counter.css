@@ -1,0 +1,30 @@
+.counter-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  padding: 50px 20px;
+}
+
+.counter-card {
+  text-align: center;
+}
+
+.counter-card h2 {
+  font-size: 3.2rem;
+  margin: 0;
+    color: #283618;
+}
+
+.counter-card p {
+  font-size: 2rem;
+  color: #283618;
+  margin-top: 8px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .counter-section {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

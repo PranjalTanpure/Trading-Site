@@ -1,0 +1,8 @@
+.qualities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  
+}
