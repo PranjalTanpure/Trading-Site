@@ -41,21 +41,16 @@
 
 /* ================= MOBILE VIEW ================= */
 @media (max-width: 768px) {
-
-  .desc-card {
-    height: 160px;
-  }
-
   .desc-text {
-    opacity: 0.85;          
-    font-size: 16px;
-    position: static;
-    height: auto;
-    padding: 12px;
-    text-align: center;
+    opacity: 0.85;          /* always visible */
   }
 
-  .card-img {
-    transform: none !important;
+  .desc-card:hover .desc-text {
+    opacity: 0.85;          /* prevent hover dependency */
+  }
+
+  .desc-card:hover .card-img {
+    transform: none;        /* optional: disable zoom on mobile */
   }
 }
+
