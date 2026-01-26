@@ -1,9 +1,11 @@
+ import choclateWord from "../images/Food.jpeg";
 export const services = [
   {
     id: 1,
-    title: "Sourcing",
-    description: "Connect with the best manufacturers worldwide.",
-    icon: "bx bx-package"
+    title: "Food",
+    description: "Handcrafted chocolate bowls for moments worth savoring.",
+    icon: "bx bx-package",
+    image: choclateWord
   },
   {
     id: 2,

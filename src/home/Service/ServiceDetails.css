@@ -1,0 +1,35 @@
+.service-details {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.service-details img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 16px;
+  margin: 20px 0;
+  box-shadow: 100px
+}
+
+.service-details p {
+  font-size: 1.1rem;
+  color: #444;
+}
+
+/* ================= MOBILE VIEW ================= */
+@media (max-width: 768px) {
+  .qualities {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .qualities {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
